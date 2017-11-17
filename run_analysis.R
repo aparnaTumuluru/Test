@@ -2,14 +2,13 @@
 run_analysis<-function()
   {
   filename <- "HAR_dataset.zip"
-  download.file("https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip",filename)
+  #download.file("https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip",filename)
   ##unizp contents
   if(file.exists(filename)){
-    unzip(filename)
+   # unzip(filename)
     
     
     activity_labels<-read.table("UCI HAR Dataset/activity_labels.txt")
-    activity_labels<-activity_labels[,2]
     
     features<-read.table("UCI HAR Dataset\\features.txt")
     
@@ -44,7 +43,10 @@ run_analysis<-function()
       colnames(tidyData)[3]<-"Variables"
     #Mean values group wise
       tidyData%>%  group_by(Subjects,activities)%>%
-        summarise(mean(Values))
+     summarise(mean(Values))->result
+      
+      write.table(result,"result.txt",row.names =FALSE )
+                       
     
   }
   
