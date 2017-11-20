@@ -49,7 +49,7 @@ run_analysis<-function()
       tidyDataGrouped<-  group_by(tidyData,Subjects,activities,Variables)
      summarize(tidyDataGrouped,mean(Values) )
       
-      write.table(result,"result.txt",row.names =FALSE )
+      #write.table(result,"result.txt",row.names =FALSE )
                        
     
   }
