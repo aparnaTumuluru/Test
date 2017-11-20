@@ -1,11 +1,13 @@
 
 The purpose of this project is to clean the data set.
+
 The following are the activities, Subjects and features.  
 Run_Analysis.R expects the files to be present in the working directory. 
 
+
 If not, Pls uncomment the following lines for it to download and run automatically
  #download.file("https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip",filename)
- # unzip(filename)
+ #unzip(filename)
 
 
 Activities : 
