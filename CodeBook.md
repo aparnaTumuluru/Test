@@ -20,60 +20,83 @@ Value               V2
   Features that have Mean or STD: 
   
  "tBodyAcc-mean"
- "tBodyAcc-std"        
- "tGravityAcc-mean-X"     
+ 
+ "tBodyAcc-std" 
+ 
+ "tGravityAcc-mean"  
+ 
+ "tGravityAcc-std" 
+ 
+ "tBodyAccJerk-mean"
+ 
+ "tBodyAccJerk-std"  
 
-  "tGravityAcc-std-X"      
-           
-"tBodyAccJerk-mean-X"  
-
-"tBodyAccJerk-std-X"  
-
- "tBodyGyro-mean-X"    
+ "tBodyGyro-mean"    
       
- "tBodyGyro-std-X"          
+ "tBodyGyro-std"          
             
- "tBodyGyroJerk-mean-X"    
+ "tBodyGyroJerk-mean"    
 
- "tBodyGyroJerk-std-X"          
+ "tBodyGyroJerk-std"          
      
- "tBodyAccMag-mean"           
- "tBodyAccMag-std"              
- "tGravityAccMag-mean"       
- "tGravityAccMag-std"        
- "tBodyAccJerkMag-mean"        
- "tBodyAccJerkMag-std"          
- "tBodyGyroMag-mean"        
- "tBodyGyroMag-std"          
- "tBodyGyroJerkMag-mean"       
- "tBodyGyroJerkMag-std"         
+ "tBodyAccMag-mean" 
+ 
+ "tBodyAccMag-std"  
+ 
+ "tGravityAccMag-mean" 
+ 
+ "tGravityAccMag-std"  
+ 
+ "tBodyAccJerkMag-mean" 
+ 
+ "tBodyAccJerkMag-std" 
+ 
+ "tBodyGyroMag-mean"  
+ 
+ "tBodyGyroMag-std" 
+ 
+ "tBodyGyroJerkMag-mean" 
+ 
+ "tBodyGyroJerkMag-std"   
+ 
  "fBodyAcc-mean-X"             
        
- "fBodyAcc-std-X"               
+ "fBodyAcc-std"               
           
- "fBodyAcc-meanFreq-X"         
+ "fBodyAcc-meanFreq"         
      
- "fBodyAccJerk-mean-X"        
+ "fBodyAccJerk-mean"        
     
- "fBodyAccJerk-std-X"        
+ "fBodyAccJerk-std"        
        
- "fBodyAccJerk-meanFreq-X"      
+ "fBodyAccJerk-meanFreq"      
 
- "fBodyGyro-mean-X"           
+ "fBodyGyro-mean"           
      
- "fBodyGyro-std-X"            
+ "fBodyGyro-std"            
         
- "fBodyGyro-meanFreq-X"       
+ "fBodyGyro-meanFreq"       
 
- "fBodyAccMag-mean"             
- "fBodyAccMag-std"              
- "fBodyAccMag-meanFreq"         
- "fBodyBodyAccJerkMag-mean"     
- "fBodyBodyAccJerkMag-std"      
+ "fBodyAccMag-mean"  
+ 
+ "fBodyAccMag-std"   
+ 
+ "fBodyAccMag-meanFreq" 
+ 
+ "fBodyBodyAccJerkMag-mean"   
+ 
+ "fBodyBodyAccJerkMag-std"  
+ 
  "fBodyBodyAccJerkMag-meanFreq"  
- "fBodyBodyGyroMag-mean"        
- "fBodyBodyGyroMag-std"       
+ 
+ "fBodyBodyGyroMag-mean"    
+ 
+ "fBodyBodyGyroMag-std"     
+ 
  "fBodyBodyGyroMag-meanFreq"    
- "fBodyBodyGyroJerkMag-mean"    
+ 
+ "fBodyBodyGyroJerkMag-mean"   
+ 
  "fBodyBodyGyroJerkMag-std"    
+ 
  "fBodyBodyGyroJerkMag-meanFreq"
