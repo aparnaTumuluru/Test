@@ -1,4 +1,6 @@
 
+setwd("D:\\DataScienceRepo\\Quiz4\\Q4")
+
 run_analysis<-function()
   {
   filename <- "HAR_dataset.zip"
@@ -38,12 +40,14 @@ run_analysis<-function()
     #add activity labels  
     fullData$activities <- factor(fullData$activities, levels = activity_labels[,1], labels = activity_labels[,2])
     
+    library(tidyr)
     #tidy data 
     tidyData<- gather(fullData,3:81,Values,-Subjects,-activities)
       colnames(tidyData)[3]<-"Variables"
     #Mean values group wise
-      tidyData%>%  group_by(Subjects,activities)%>%
-     summarise(mean(Values))->result
+      library(dplyr)
+      tidyDataGrouped<-  group_by(tidyData,Subjects,activities,Variables)
+     summarize(tidyDataGrouped,mean(Values) )
       
       write.table(result,"result.txt",row.names =FALSE )
                        
