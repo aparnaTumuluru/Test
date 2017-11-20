@@ -18,4 +18,4 @@ If not, please uncomment(remove # symbol) the below lines from run_analysis.R fi
   
   library(dplyr)  
 
-3.The end result is shown in the file result.csv that is created in your working folder.
+3.The end result is shown in the file result.csv that is created in your working folder (.CSV file for better readability.).
