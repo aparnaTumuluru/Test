@@ -1,7 +1,7 @@
 
 The script run_analysis.R does the following:
 
-Downlaods the zip file from the URL 
+Downloads the zip file from the URL 
 
 unzips it 
 
