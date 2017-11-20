@@ -9,6 +9,7 @@ If not, please uncomment(remove # symbol) the below lines from run_analysis.R fi
   
  2. Expects tidyr and dplyr packages to be installed. 
   If not, please run the below lines before executing the R file. 
+  
   install_packages("tidyr)
   
   install_packages("dplyr")
