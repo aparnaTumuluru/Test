@@ -1,14 +1,16 @@
 
 The purpose of this project is to clean the data set.
 
-The following are the activities, Subjects and features.  
-Run_Analysis.R expects the files to be present in the working directory. 
+execution Steps:
+Extract activity and feature details
+Filter for only features containing mean or STD
+Extract training and test details for these features
+merge the Test and training data
+Add activity labels and Feature names
+group the data according to Subjects, Activities and Features.
+Mean the values.
 
-
-If not, Pls uncomment the following lines for it to download and run automatically
- #download.file("https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip",filename)
- #unzip(filename)
-
+The following are the activity,subject and feature details..  
 
 Activities : 
 
@@ -28,6 +30,7 @@ Value               V2
   
   Subjects:
   Range of 1: 30 individuals from whom the data is collected. 
+  
   
   Interested Features- Only those that have Mean or STD across X, Y and Z 
   
